@@ -1,0 +1,13 @@
+#logo{
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: left;
+  position: relative;
+  top: 30px;
+  z-index: 50;
+}
+img[target="logo"]{
+  width: 150px;
+  height: 200px;
+}

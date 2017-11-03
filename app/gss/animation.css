@@ -1,0 +1,43 @@
+/* IMAGE EFFECT */
+			.cont {
+				position: relative;
+				width: 100%;
+				height:100%;
+			}
+
+			.effect {
+			  opacity: 1;
+			  display: block;
+			  width: 100%;
+			  height: 100%;
+			  transition: .5s ease;
+			  backface-visibility: hidden;
+			  background-size: cover;
+			}
+
+			.mid {
+			  transition: .5s ease;
+			  opacity: 0;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%)
+			}
+
+			.cont:hover .effect {
+				-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+				filter: grayscale(100%);
+			}
+
+			.cont:hover .mid {
+			  opacity: 1;
+			}
+			.text {
+			  border:2px solid;
+			  border-color:white;
+			  background-color: black;
+			  color: white;
+			  font-size: 16px;
+			  padding: 16px 32px;
+			}

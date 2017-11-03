@@ -1,0 +1,43 @@
+#menu{
+  padding: 7rem;
+  padding-bottom: 0;
+  padding-right: 0;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  position: relative;
+  top: 30;
+  z-index: 99;
+}
+#lmenu{
+  padding: 1rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  position: relative;
+  z-index: 99;
+  transition: all 0.5s;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    text-align: center;
+    font-size: 32px;
+    text-align: right;
+    transition: 0.5s;
+}
+.vertical-menu > a {
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 32px;
+    transition: 0.5s;
+}
+.vertical-menu a:hover {
+    color: #008ae6; /* Dark grey background on mouse-over */
+    text-decoration: none; /* Remove underline from links */
+    font-size:48px;
+}
+.vertical-menu a.active {
+    color: #008ae6;
+}

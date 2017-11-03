@@ -1,0 +1,14 @@
+.event{
+  margin: 10px;
+  background-color: #ffffff;
+  width: 100%;
+}
+.free{
+  width: 200px;
+  height: 40px;
+  background-color: #eaeaea;
+  text-align: left;
+}
+.free > p{
+  padding: 10px;
+}
